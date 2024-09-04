@@ -2043,3 +2043,35 @@ button[type="button"] {
     text-align: left;
   }
 }
+
+.pagination > * {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.pagination .next, .pagination .prev{
+  background-color: transparent;
+  &:hover {
+    transform: scale(1.5);
+    
+  }
+}
+
+.pagination .current {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  transform: scale(1.2);
+}
+
+.feature-story img{
+ height: 771px;
+ width: 100%;
+ object-fit: cover;
+}
