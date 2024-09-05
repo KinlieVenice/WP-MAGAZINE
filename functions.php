@@ -11,3 +11,5 @@ function show_template() {
         echo '<div class"template-name" style="position:fixed; left: 30px; bottom: 30px; padding:2px; background: coral; color:#fff; font-size: 13px;">'.basename($template).'</div>';
     }
 }
+
+
