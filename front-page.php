@@ -200,7 +200,7 @@
             class="flex items-center justify-between py-10 pb-20 border-t border-dark"
           >
             <h2 class="uppercase">Podcast</h2>
-            <a href="<?php echo site_url('/podcasts')?>" class="link-arrow right" id="podcast-link"
+            <a href="<?php echo site_url('/podcast')?>" class="link-arrow right" id="podcast-link"
               >All Episodes
               <svg class="icon-sm" role="image">
                 <use xlink:href="<?php echo get_template_directory_uri()?>/img/sprite.svg#icon-arrow-right"></use>
